@@ -108,6 +108,7 @@ To get started, follow these steps:
       ![image](https://github.com/user-attachments/assets/c498e235-c9a1-4eae-81fe-ddfe35c0209d)
 
   - Generated Plots
+    
       **1. Average Reward Comparison**
       Comparison of rewards across all reward functions.
       ![image](https://github.com/user-attachments/assets/9251c31c-ed99-43c8-919e-cc573fc02b33)
