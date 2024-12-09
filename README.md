@@ -1,7 +1,7 @@
-# **Traffic Signal Control using RL in SUMO**
+# **Traffic Signal Control using RL**
 
 ## 🚦 **Overview**
-This project implements **Reinforcement Learning (RL)** algorithms to optimize traffic signal control for a single intersection in a SUMO (Simulation of Urban MObility) environment. The project is designed as a **single Jupyter Notebook** for use in **Google Colab**.  
+This project implements **Reinforcement Learning (RL)** algorithms to optimize traffic signal control for a single intersection in a SUMO (Simulation of Urban MObility) environment (**SUMO-GUI will not work in Google Colab because Colab does not support GUI-based applications or visual display rendering like a standard desktop environment.**). The project is designed as a **single Jupyter Notebook** for use in **Google Colab**.  
 
 The algorithms used are:
 - **Q-Learning**
