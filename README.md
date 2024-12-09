@@ -22,6 +22,11 @@ The project consists of a **single Jupyter Notebook** file containing all the lo
 
 2. **Custom SUMO Environment**  
    - `SumoSingleIntersectionEnv`: A custom Gymnasium environment designed for a single traffic intersection.
+   - Four different Rewardfunctions:
+        1. **diff-waiting-times**
+        2. **queue**
+        3. **pressure**
+        4. **combined**
 
 3. **Fixed-Timing Benchmark**  
    - A baseline model using fixed-duration traffic signals for comparison.
@@ -55,6 +60,7 @@ To get started, follow these steps:
 
 ### 1. **Q-Learning**
   - Adjust hyperparameters (alpha, gamma, epsilon) if needed.
+  - Execute RandomSearch Algorithm to find optimal hyperparameters
   - Results include:
     - Learning curves
     - Average waiting time and throughput
@@ -62,6 +68,7 @@ To get started, follow these steps:
       
 ### 2. **SARSA**
   - SARSA uses slightly different hyperparameters for exploration and learning rate decay.
+  - Execute RandomSearch Algorithm to find optimal hyperparameters
   - Results include:
     - Learning curves
     - Average waiting time and throughput
@@ -69,6 +76,7 @@ To get started, follow these steps:
 
 ### 3. **DQN**
   - Implements a Deep Q-Network using Stable Baselines3 library.
+  - Execute RandomSearch Algorithm to find optimal hyperparameters
   - Results include:
     - Learning curves
     - Average waiting time and throughput
@@ -79,6 +87,9 @@ To get started, follow these steps:
 ### 📊 **Benchmark and Evaluation**
 
   - Compare Q-Learning, SARSA, and DQN against the Fixed-Timing Benchmark.
+      ![image](https://github.com/user-attachments/assets/c498e235-c9a1-4eae-81fe-ddfe35c0209d)
+
+    
   - Results include:
     - Average rewards
     - Improvement percentages
@@ -88,15 +99,23 @@ To get started, follow these steps:
   - Generated Plots
     - Average Reward Comparison
       Comparison of rewards across all reward functions.
+      ![image](https://github.com/user-attachments/assets/9251c31c-ed99-43c8-919e-cc573fc02b33)
+
 
     - Improvement Over Fixed-Timing
       Improvement (%) of RL algorithms compared to the fixed-timing benchmark.
+      ![image](https://github.com/user-attachments/assets/8e836ace-40e8-4d00-8c6e-1a23607a0579)
+
 
     - Average Waiting Time
       Comparison of waiting times for all algorithms.
+      ![image](https://github.com/user-attachments/assets/8704839e-4471-44ae-8c6a-40fe8afe93c8)
+
 
     - Throughput Comparison
       Number of vehicles processed by the system.
+      ![image](https://github.com/user-attachments/assets/4107e6d2-bf3f-40d4-b2a4-25cb2fe3c702)
+
 
 ---
 
