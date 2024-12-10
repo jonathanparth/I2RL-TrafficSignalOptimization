@@ -169,5 +169,6 @@ The performance of Q-Learning, SARSA, and DQN algorithms is evaluated and compar
 
 ### 🎯 **Future Improvements**
   - Multi-intersection environments.
+  - Compatibility for additionaly .net and .route files
   - Support for multi-agent RL algorithms.
   - Integration with advanced RL algorithms (PPO, A3C).
