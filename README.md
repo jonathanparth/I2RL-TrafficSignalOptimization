@@ -47,12 +47,12 @@ The project consists of a **single Jupyter Notebook** file containing all the lo
 To get started, follow these steps:
 
 ### 1. **Open the Notebook**
-   - Open the notebook (`traffic_signal_rl.ipynb`) in Google Colab.
+   - Open the notebook in Google Colab.
 
 ### 2. **Environment Setup**
    - Run the initial setup cells to:
      - Install **SUMO** tools.
-     - Upload `.net.xml` (network) and `.rou.xml` (route) files.
+     - Upload `.net.xml` (network) and `.rou.xml` (route) files. *Currently **only** "single-intersection.net.xml" and "single-intersection-horizontal.net.xml" possible!*
 
 ---
 
