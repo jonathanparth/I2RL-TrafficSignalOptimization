@@ -63,7 +63,7 @@ To get started, follow these steps:
 | **`diff-waiting-time`** | Minimize waiting time     | Penalizes total waiting time for vehicles.     | -(Waiting Time)                     |
 | **`queue`**            | Minimize queue length     | Penalizes number of halted vehicles.           | -(Halted Vehicles)                  |
 | **`pressure`**         | Balance traffic flow      | Balances incoming and outgoing traffic flow.   | (Outgoing Vehicles) - (Incoming Vehicles) |
-| **`combined`**         | Optimize multiple metrics | Combines waiting, queue, pressure, and balance.| Weighting Penalty + Queue Penalty + Balance Penalty + Change Penalty + Flow Reward               |
+| **`combined`**         | Optimize multiple metrics | Combines waiting, queue, pressure, and balance.| Waiting Penalty + Queue Penalty + Balance Penalty + Change Penalty + Flow Reward               |
 
 ---
 
